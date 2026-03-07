@@ -386,3 +386,57 @@ a {
     height: 22px;
 }   
 }
+/* benefits-section */
+.benefits-section{
+  background: var(--violet);
+  padding: 50px;
+}
+.benefits-heading{
+  display: none;
+}
+.benefits-list{
+  display: flex;
+  justify-content: space-between;
+}
+.benefits-item{
+  position: relative;
+  
+}
+.benefits-item:not(:last-child)::after{
+     content: "";
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 1px;
+    height: 124px;
+    position: absolute;
+    top: 63px;
+    right: -44px;
+
+}
+
+.svg-benefits-container{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 365px;
+  padding: 15px;
+  width: 62px;
+    height: 62px;
+}
+.benefits-title{
+    padding: 22px 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--white);
+}
+.benefits-paragraph{
+    padding: 18px 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+      max-width: 308px;
+  }
+
+
