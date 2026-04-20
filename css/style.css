@@ -396,7 +396,7 @@ a {
       padding: 50px 12px;
     }
  }
- @media screen and (min-width: 375px) {
+ @media screen and (max-width:767px) {
     .benefits-section {
         padding: 20px 0;
       }
@@ -415,7 +415,7 @@ a {
   gap: 44px;
 }
 }
-@media screen and (min-width: 375px) {
+@media screen and (max-width:767px) {
   .benefits-list {
       display: grid;
       justify-content: center;
@@ -442,7 +442,7 @@ a {
     display: none;
     }
 }
-@media screen and (min-width: 375px) {
+@media screen and (max-width:767px) {
   .benefits-item:not(:last-child)::after {
     display: none;
   }
